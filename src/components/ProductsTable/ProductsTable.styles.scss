@@ -1,0 +1,37 @@
+.noProductsText{
+    text-align: center;
+    font-size:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-family: 'Raleway', sans-serif;
+    width:40%;
+}
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+tr:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.sort{
+    cursor:pointer;
+    text-decoration: underline;
+}
